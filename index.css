@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: moul;
+    src: url(Moul/Moul-Regular.ttf);
+}
+@font-face {
+    font-family: khmeros;
+    src: url(Khmer,Moul/Khmer/Khmer-Regular.ttf);
+    font-weight: bolder;
+}
+.container{
+    width: 70%;
+    height: 750px;
+    margin: auto;
+    border: 70px solid;
+    border-image: url(img/border.png) 30% round;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgb(172, 6, 6);
+    margin: auto;
+}
+.txt1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}.txt1 .box_txt1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}.box_txt1 h1 {
+    font-family: moul;
+    font-size: 14px;
+    padding-top: 20px;
+}.box_txt1 h4{
+    font-family: khmeros;
+    font-size: 13px;
+    
+}
+.box1_txt1{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+.box1_txt1 h1  {
+    font-family: moul;
+    font-size: 14px;
+    padding-top: 20px;
+    
+}.box1_txt1 h4{
+    font-family: khmeros;
+    font-size: 13px;
+    
+}
+
+
+.txt2{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    
+    
+}.txt2 h1{
+    font-family: moul;
+    font-size: 25px;
+}.txt2 h5{
+    /* line-height: 10px; */
+}
+.txt2 h3{
+    font-family: moul;
+    color: black;
+}.txt2 h2{
+    font-size: 16px;
+}
+
+
+.txt3{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    font-family: khmeros;
+}.txt3 .box_txt3{
+    width: 50%;
+    height: 100%;
+   
+}.txt3 .box_txt3 h1{
+    font-size: 16px;
+    
+}.txt3 .box_txt3 p{
+    font-size: 13px;
+    line-height: 22px;
+}
+.txt3 .box_txt3 h3{
+    font-size: 16px;
+}.txt3 .box_txt3 span{
+    font-weight: bold;
+}
+
+.txt3 .box1_txt3{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.txt4{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}.txt4 .box_txt4{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.txtT{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+}.txtT h6{
+    font-size: 11px;
+    font-family: khmeros;
+}.txtT h1{
+    font-family: moul;
+    font-size: 13px;
+}
+.txtI{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}.txtI img{
+    width: 130px;
+    height: 70px;
+    margin-top: px;
+}
+.txt4 .box_txt4 p{
+    font-family: khmeros;
+    font-size: 12px;
+}
+.img {
+    width: 100px;
+    height: 130px;
+    background-color: red;
+    margin: auto;
+    overflow: hidden;
+}.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
